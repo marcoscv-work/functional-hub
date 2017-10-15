@@ -1,0 +1,120 @@
+@keyframes loop {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: 3000px; } }
+
+@keyframes loop2 {
+  from {
+    background-position-x: 2500px; }
+  to {
+    background-position-x: -500px; } }
+
+body {
+  background-color: #575757;
+  font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 64px; }
+
+.container-animated.waves:after, .container-animated.waves:before {
+  animation: 30s linear 0s normal none infinite loop;
+  background-image: url("https://cdn.rawgit.com/marcoscv-work/functional-hub/48029208/images/fondo_tiles.png");
+  background-position-y: -360px;
+  background-repeat: repeat-x;
+  background-size: 3000px auto;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.container-animated.waves:before {
+  animation: 30s linear 0s normal none infinite loop2;
+  background-position-y: -380px; }
+
+.container-animated {
+  min-height: 100vh;
+  position: relative; }
+  .container-animated .mac-centered {
+    position: absolute;
+    top: calc(50% - 60px); }
+
+.navbar {
+  z-index: 1; }
+
+video {
+  width: 100%;
+  max-width: 500px; }
+
+.monad {
+  position: absolute;
+  right: 15%;
+  bottom: -17px;
+  z-index: 1;
+  width: 360px; }
+
+.card {
+  border-radius: 0; }
+
+.card-box {
+  min-height: 50vh; }
+  .card-box:hover {
+    text-decoration: none;
+    transition: all 0.1s ease-in-out; }
+  .card-box h3 {
+    font-weight: 300; }
+
+.sidebar {
+  overflow: hidden;
+  width: 64px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #FAFAFA;
+  z-index: 9;
+  transition: all 0.1s ease-in-out;
+  background: #FAFAFA;
+  box-shadow: 2px 0 2px 0 rgba(191, 191, 191, 0.5); }
+  .sidebar:hover, .sidebar.open {
+    width: 264px;
+    transition: width 0.2s ease; }
+    .sidebar:hover .nav-item, .sidebar.open .nav-item {
+      width: 264px;
+      transition: all 0.2s ease; }
+      .sidebar:hover .nav-item .magic, .sidebar.open .nav-item .magic {
+        font-size: 1.5rem;
+        transition: all 0.4s ease; }
+        .sidebar:hover .nav-item .magic.logo, .sidebar.open .nav-item .magic.logo {
+          color: #c7c5c5;
+          opacity: 1; }
+  .sidebar .nav-item {
+    width: 64px;
+    line-height: 48px;
+    max-height: 64px;
+    text-align: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    font-size: 1.6rem;
+    font-weight: 300; }
+    .sidebar .nav-item .magic {
+      font-size: 0;
+      transition: all 0.3s ease; }
+      .sidebar .nav-item .magic.logo {
+        font-size: 1rem;
+        opacity: 0; }
+
+.bg-swift {
+  background: linear-gradient(#E3AF53, #C7523B); }
+  .bg-swift:hover {
+    background: linear-gradient(#E3AF53, #E3AF53); }
+
+.bg-kotlin {
+  background: linear-gradient(#71609F, #3FA6D3); }
+  .bg-kotlin:hover {
+    background: linear-gradient(#71609F, #71609F); }
+
+.bg-js {
+  background: radial-gradient(#C4A301, #FFD801); }
+  .bg-js:hover {
+    background: linear-gradient(#C4A301, #C4A301); }
