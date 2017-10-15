@@ -21,6 +21,7 @@ body {
   background-position-y: -360px;
   background-repeat: repeat-x;
   background-size: 3000px auto;
+  background-attachment: fixed;
   bottom: 0;
   content: '';
   left: 0;
