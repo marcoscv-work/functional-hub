@@ -106,15 +106,9 @@ video {
 
 .bg-swift {
   background: linear-gradient(#E3AF53, #C7523B); }
-  .bg-swift:hover {
-    background: linear-gradient(#E3AF53, #E3AF53); }
 
 .bg-kotlin {
   background: linear-gradient(#71609F, #3FA6D3); }
-  .bg-kotlin:hover {
-    background: linear-gradient(#71609F, #71609F); }
 
 .bg-js {
   background: radial-gradient(#C4A301, #FFD801); }
-  .bg-js:hover {
-    background: linear-gradient(#C4A301, #C4A301); }
