@@ -7,6 +7,7 @@ $color-kotlin-b: #3FA6D3;
 $color-js-a: #C4A301;
 $color-js-b: #FFD801;
 
+$bg-color: #383737;
 $bg-size: 3000px;
 $sidebar-width: 64px;
 $sidebar-width-open: 264px;
@@ -22,7 +23,7 @@ $sidebar-width-open: 264px;
 }
 
 body {
-	background-color: #575757;
+	background-color: $bg-color;
 	font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-left: $sidebar-width;
 }
